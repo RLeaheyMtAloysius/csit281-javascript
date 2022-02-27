@@ -53,8 +53,8 @@ p {
     }
 
     function pageViews() {
-      pageView++;
-      document.write(pageView);
+      pageView++; // Increases the pageView variable by one.
+      document.write(pageView); // Writing the pageView number to the website.
     }
 
     </script>
@@ -65,6 +65,23 @@ p {
       <li>Contact</li>
     </ul>
 
+    <script>
+
+    let websiteMenu = ['About', 'Portfolio', 'Contact', 'Classwork'];
+
+    document.write(websiteMenu);
+
+    </script>
+<p>
+    <script>
+
+
+    document.write(websiteMenu[2]);
+
+
+
+    </script>
+</p>
 
 
     <h1 class="page-title"><script>pageTitles();</script></h1>
