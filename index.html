@@ -107,7 +107,7 @@ p {
 
     function myAlert(){
 
-      let alertNumber = 1;
+      let alertNumber = 4;
 
       if (alertNumber <= 3) {
         alert('Oh No!');
@@ -117,10 +117,18 @@ p {
 
       alertNumber++;
 
-      alert(alertNumber);
     }
- //     myAlert();
+      myAlert();
 
+    function myAlertLoop(){
+
+      for (let alertLoopNumber = 1; alertLoopNumber <= 3;) {
+        document.write('please restart your computer ');
+      }
+
+    }
+
+    myAlertLoop();
 
 </script>
 
